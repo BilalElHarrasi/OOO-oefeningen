@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 
-public class Shop {
+class Shop {
 	
 	private ArrayList<String> productTitles;
 	private ArrayList<String> productTypes;
