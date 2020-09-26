@@ -1,0 +1,28 @@
+Totaal aantal producten: 10
+ ID: 0 Naam: Greatest hits of marco borsato Type: Cd | Beschikbaar
+ ID: 1 Naam: Michael Jackson - Thriller Type: Cd | Beschikbaar
+ ID: 2 Naam: Samson en gert - kinderliedjes Type: Cd | Beschikbaar
+ ID: 3 Naam: Call of duty Type: Game | Beschikbaar
+ ID: 4 Naam: Fortnite Type: Game | Beschikbaar
+ ID: 5 Naam: Rocket League Type: Game | Beschikbaar
+ ID: 6 Naam: GoatSimulator Type: Game | Beschikbaar
+ ID: 7 Naam: Lord of the rings Type: Movie | Beschikbaar
+ ID: 8 Naam: Inception Type: Movie | Beschikbaar
+ ID: 9 Naam: Wolf of Wallstreet Type: Movie | Beschikbaar
+
+
+Films (3)
+ ID: 7 Naam: Lord of the rings Type: Movie | Beschikbaar
+ ID: 8 Naam: Inception Type: Movie | Beschikbaar
+ ID: 9 Naam: Wolf of Wallstreet Type: Movie | Beschikbaar
+
+Games (4)
+ ID: 3 Naam: Call of duty Type: Game | Beschikbaar
+ ID: 4 Naam: Fortnite Type: Game | Beschikbaar
+ ID: 5 Naam: Rocket League Type: Game | Beschikbaar
+ ID: 6 Naam: GoatSimulator Type: Game | Beschikbaar
+
+CD's (3)
+ ID: 0 Naam: Greatest hits of marco borsato Type: Cd | Beschikbaar
+ ID: 1 Naam: Michael Jackson - Thriller Type: Cd | Beschikbaar
+ ID: 2 Naam: Samson en gert - kinderliedjes Type: Cd | Beschikbaar
