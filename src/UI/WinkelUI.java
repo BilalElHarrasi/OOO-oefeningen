@@ -6,34 +6,34 @@ import javax.swing.*;
 import java.io.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class WinkelUI {
 
 
+
     public static void main(String[] args) throws IOException {
-
-
+        Scanner input = new Scanner(new File("shop.txt"));
+        input.useDelimiter("-|\n");
         Winkel winkel = new Winkel("OOO-Winkel");
-        Product cod = new Game("Call of duty");
-        Product fort = new Game("Fortnite");
-        Product rock = new Game("Rocket League");
-        Product goat = new Game("GoatSimulator");
-        Product lord = new Movie("Lord of the rings");
-        Product ince = new Movie("Inception");
-        Product wolf = new Movie("Wolf of Wallstreet");
-        Product marco = new Cd("Greatest hits of marco borsato");
-        Product michael = new Cd("Michael Jackson - Thriller");
-        Product samson = new Cd("Samson en gert - kinderliedjes");
-        winkel.addProduct(marco);
-        winkel.addProduct(michael);
-        winkel.addProduct(samson);
-        winkel.addProduct(cod);
-        winkel.addProduct(fort);
-        winkel.addProduct(rock);
-        winkel.addProduct(goat);
-        winkel.addProduct(lord);
-        winkel.addProduct(ince);
-        winkel.addProduct(wolf);
+
+        while(input.hasNext()) {
+            String type = input.next();
+            String name = input.next();
+
+            if(type.equalsIgnoreCase("game")) {
+                Product newProduct = new Game(name);
+                winkel.addProduct(newProduct);
+            }else if(type.equalsIgnoreCase("movie")){
+                Product newProduct = new Movie(name);
+                winkel.addProduct(newProduct);
+            }else if(type.equalsIgnoreCase("cd")){
+                Product newProduct = new Cd(name);
+                winkel.addProduct(newProduct);
+        }else{
+                break;
+            }
+    }
 
 
         String menu = "1. Add product\n2. Delete product \n3. Show all products\n4. Show product on id\n5. Show rental price\n6. Reserve product\n7. Check availability on id\n\n\n0. Quit";
@@ -180,7 +180,20 @@ public class WinkelUI {
             }
 
             if (choice == 0){
-                winkel.writeToFile();
+                FileWriter writer = new FileWriter("shop.txt");
+                ArrayList<Movie> movies = winkel.getFilms();
+                ArrayList<Game> games = winkel.getGames();
+                ArrayList<Cd> cds = winkel.getCDs();
+                for (Movie m: movies) {
+                    writer.write("movie-"+m.getNaam()+"\n");
+                }
+                for (Game g: games) {
+                    writer.write("game-"+g.getNaam()+"\n");
+                }
+                for (Cd c: cds) {
+                    writer.write("cd-"+c.getNaam()+"\n");
+                }
+                writer.close();
             }
         }
     }
