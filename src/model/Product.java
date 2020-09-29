@@ -1,6 +1,7 @@
 package model;
 
-public class Product {
+public abstract class Product {
+
     private int id;
     String naam;
     boolean uitgeleend;
@@ -40,4 +41,5 @@ public class Product {
         }
         return ret;
     }
+
 }

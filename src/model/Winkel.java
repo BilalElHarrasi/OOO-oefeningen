@@ -136,23 +136,4 @@ public class Winkel {
         return ret;
     }
 
-    public void writeToFile()
-            throws IOException {
-        ArrayList films = getFilms();
-        ArrayList games = getGames();
-        ArrayList cds = getCDs();
-
-        String filmoverview = ArraytoStringOverview(films);
-        String gamesoverview = ArraytoStringOverview(games);
-        String cdsoverview = ArraytoStringOverview(cds);
-        String overview = "Films (" + films.size() + ")\n" + filmoverview + "\nGames (" + games.size() + ")\n" + gamesoverview + "\nCD's (" + cds.size() + ")\n" + cdsoverview;
-        String allproducts = this.toString();
-        try (PrintStream out = new PrintStream(new FileOutputStream("shop.txt"))) {
-            out.print(allproducts);
-            out.print("\n\n\n");
-            out.print(overview);
-        }
-    }
-
-
 }
