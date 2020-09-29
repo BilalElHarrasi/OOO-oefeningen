@@ -36,7 +36,7 @@ public class WinkelUI {
         winkel.addProduct(wolf);
 
 
-        String menu = "1. Add product\n2. Delete product \n3. Show all products\n4. Show product on id\n5. Show rental price\n6. Reserve product\n7. Check availability on id\n\n\n0. Quit";
+        String menu = "1. Add product\n2. Delete product \n3. Show all products\n4. Show product on id\n5. Show rental price\n6. Reserve product\n7. Check availability on id\n\n\n0. Quit and save";
         int choice = -1;
         while (choice != 0) {
             String choiceString = JOptionPane.showInputDialog(menu);
