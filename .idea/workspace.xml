@@ -19,14 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c3deec7-34cb-4c69-a445-0364d6ebda5d" name="Default Changelist" comment="">
+    <list default="true" id="6c3deec7-34cb-4c69-a445-0364d6ebda5d" name="Default Changelist" comment="Backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shop.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/WinkelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/WinkelUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/shop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Winkel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Winkel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,17 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WinkelUI" />
@@ -178,7 +161,8 @@
     </ignored-roots>
     <MESSAGE value="test" />
     <MESSAGE value=".gitignore toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore toegevoegd" />
+    <MESSAGE value="Backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="768" y="228" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1601290038416">
@@ -201,25 +185,13 @@
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state width="1874" height="252" key="GridCell.Tab.0.right/0.29.1920.983@0.29.1920.983" timestamp="1601294574089" />
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601382897362">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="555" y="255" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.985@0.27.1920.985" timestamp="1601382897362" />
     <state x="716" y="267" width="477" height="514" key="refactoring.ChangeSignatureDialog" timestamp="1601290541347">
       <screen x="0" y="29" width="1920" height="983" />
     </state>
     <state x="716" y="267" width="477" height="514" key="refactoring.ChangeSignatureDialog/0.29.1920.983@0.29.1920.983" timestamp="1601290541347" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
